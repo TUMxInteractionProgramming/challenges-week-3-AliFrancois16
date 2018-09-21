@@ -7,3 +7,8 @@ $('li').on("click", function() {
 $("#emojis-button").on("click", function() {
     $("#emojis").toggle();
 });
+
+function switchChannel(chosedLi) {
+    console.log('Tuning into channel ' + chosedLi);
+    document.querySelector("#chat h1").innerHTML = chosedLi + "&nbsp;<small>by <strong>upgrading.never.helps</strong></small><img src='http://ip.lfe.mw.tum.de/sections/star.png' alt='starred' class='channel-meta'>";
+}
