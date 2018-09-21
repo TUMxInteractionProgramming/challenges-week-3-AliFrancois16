@@ -187,14 +187,15 @@ li.selected {
     font-size: larger;
     font-style: normal;
     display: inline-block;
-    width: 25%;
+    width: 20%;
     text-align: right;
 }
 
 .message h3 a {
     /* #3 #chat #link color is primary text */
     color: black;
-    width: 33%;
+    width: 35%;
+    overflow: auto;
 }
 
 .message p {
@@ -223,6 +224,7 @@ li.selected {
 
 #chat-section {
     overflow: auto;
+    position: relative;
 }
 
 
